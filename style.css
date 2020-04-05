@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.container{
+	background: #1a1a1a;
+	height: 100%;
+	position: absolute;
+	width: 100%; 
+}
+
+form{
+	width: 350px;
+	margin: 10px auto;
+	border: 2px solid #00e600;
+	border-radius: 10px;
+	color: #fff;
+	box-shadow: 0 0 5px #00e600;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
+}
+
+form .signup{
+	display: block;
+	float: right;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #00e600;
+	margin: 35px;
+
+}
+form label{
+	clear:both;
+	display:block;
+	position: relative;
+
+}
+form label input{
+	display: block;
+	width:70%;
+	margin:20px auto;
+	padding: 10px;
+	border: none;
+	background: transparent;
+	border-bottom: 3px solid #99ff99;
+	outline:none;
+	padding-left: 30px;
+	transition: all .5s ease-in-out;
+	color:#fff;
+
+}
+
+form label i{
+	position: absolute;
+	top:10px;
+	left:30px;
+	color:#fff;
+}
+
+form label input:focus{
+	border-bottom: 2px solid #00e600;
+
+}
+
+form input[type="submit"]{
+	display: block;
+	background:#00e600;
+	color:#fff;
+	border:none;
+	border-radius: 5px;
+	text-align:center;
+	width:250px;
+	margin: auto;
+	padding: 10px 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 5px #00e600;
+	cursor: pointer;
+}
+
+form a.forgot{
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color:#00e600;
+	text-align:left;
+	margin-left: 35px;
+}
+
+form .links{
+	background: #00e600;
+	color: #fff;
+	margin-top: 30px;
+	padding: 20px 0 40px;
+}
+
+form .links h4{
+	font-size:18px;
+	color:#fff;
+
+}
+
+form .links i{
+	margin-right: 18px;
+	cursor: pointer;
+	color:#fff;
+}
